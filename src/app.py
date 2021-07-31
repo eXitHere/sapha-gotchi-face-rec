@@ -72,7 +72,7 @@ def hello_world():
 @app.route('/OmmNusctxunYpHqnCVnq', methods=['POST'])
 @cross_origin()
 def upload():
-    print('new request!')
+    print('new request!', request.files, request.files.to_dict())
     try:
         file = request.files.to_dict()['files']
 
@@ -101,7 +101,7 @@ def upload():
             }
             response = app.response_class(
                 response = json.dumps(data), 
-                status   = 201, 
+                status   = 200, 
                 mimetype = 'application/json'
             )
         else :
