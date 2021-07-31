@@ -1,4 +1,4 @@
-![build status](http://url/to/img.png)
+![fake build status](https://github.com/eXitHere/sapha-gotchi-face-rec/blob/main/readme/build-passing.png?raw=true)
 
 #### Stupid Hackathon Thailand 5 | Sapha Gotchi
 
