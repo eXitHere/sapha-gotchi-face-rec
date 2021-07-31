@@ -69,7 +69,7 @@ cors = CORS(app)
 def hello_world():
     return 'Hello, world!'
 
-@app.route('/upload', methods=['POST'])
+@app.route('/OmmNusctxunYpHqnCVnq', methods=['POST'])
 @cross_origin()
 def upload():
     print('new request!')
