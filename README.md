@@ -1,3 +1,5 @@
+![build status](http://url/to/img.png)
+
 #### Stupid Hackathon Thailand 5 | Sapha Gotchi
 
 -   repo นี้ทำเกี่ยวกับ face recognition โดยใช้ Flask + VGGFace2
