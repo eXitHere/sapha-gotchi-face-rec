@@ -72,6 +72,7 @@ def hello_world():
 @app.route('/upload', methods=['POST'])
 @cross_origin()
 def upload():
+    print('new request!')
     try:
         file = request.files.to_dict()['files']
 
